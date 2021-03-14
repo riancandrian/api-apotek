@@ -1,4 +1,5 @@
-# ci-restserver
-Check the recent version at https://github.com/chriskacerguis/codeigniter-restserver
+# api-apotek
 
-My alternate version https://github.com/ardisaurus/old-rest-ci
+This is sample API for develop pharmacy application
+
+Base on Codeigniter 3
