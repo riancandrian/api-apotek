@@ -21,16 +21,11 @@
 							"urlencoded": []
 						},
 						"url": {
-							"raw": "http://127.0.0.1/ci-restapi/obat",
-							"protocol": "http",
+							"raw": "{{API_URL}}/obat",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"{{API_URL}}"
 							],
 							"path": [
-								"ci-restapi",
 								"obat"
 							],
 							"query": [
@@ -80,16 +75,11 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1/ci-restapi/obat",
-							"protocol": "http",
+							"raw": "{{API_URL}}/obat",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"{{API_URL}}"
 							],
 							"path": [
-								"ci-restapi",
 								"obat"
 							]
 						}
@@ -132,16 +122,11 @@
 							]
 						},
 						"url": {
-							"raw": "http://127.0.0.1/ci-restapi/obat",
-							"protocol": "http",
+							"raw": "{{API_URL}}/obat",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"{{API_URL}}"
 							],
 							"path": [
-								"ci-restapi",
 								"obat"
 							]
 						}
@@ -164,16 +149,11 @@
 							]
 						},
 						"url": {
-							"raw": "http://127.0.0.1/ci-restapi/obat",
-							"protocol": "http",
+							"raw": "{{API_URL}}/obat",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"{{API_URL}}"
 							],
 							"path": [
-								"ci-restapi",
 								"obat"
 							]
 						}
@@ -191,16 +171,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1/ci-restapi/supplier",
-							"protocol": "http",
+							"raw": "{{API_URL}}/supplier",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"{{API_URL}}"
 							],
 							"path": [
-								"ci-restapi",
 								"supplier"
 							]
 						}
@@ -233,16 +208,11 @@
 							]
 						},
 						"url": {
-							"raw": "http://127.0.0.1/ci-restapi/supplier",
-							"protocol": "http",
+							"raw": "{{API_URL}}/supplier",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"{{API_URL}}"
 							],
 							"path": [
-								"ci-restapi",
 								"supplier"
 							]
 						}
@@ -280,16 +250,11 @@
 							]
 						},
 						"url": {
-							"raw": "http://127.0.0.1/ci-restapi/supplier",
-							"protocol": "http",
+							"raw": "{{API_URL}}/supplier",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"{{API_URL}}"
 							],
 							"path": [
-								"ci-restapi",
 								"supplier"
 							]
 						}
@@ -312,16 +277,11 @@
 							]
 						},
 						"url": {
-							"raw": "http://127.0.0.1/ci-restapi/supplier",
-							"protocol": "http",
+							"raw": "{{API_URL}}/supplier",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"{{API_URL}}"
 							],
 							"path": [
-								"ci-restapi",
 								"supplier"
 							]
 						}
@@ -339,16 +299,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1/ci-restapi/kategoriobat",
-							"protocol": "http",
+							"raw": "{{API_URL}}/kategoriobat",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"{{API_URL}}"
 							],
 							"path": [
-								"ci-restapi",
 								"kategoriobat"
 							]
 						}
@@ -371,16 +326,11 @@
 							]
 						},
 						"url": {
-							"raw": "http://127.0.0.1/ci-restapi/kategoriobat",
-							"protocol": "http",
+							"raw": "{{API_URL}}/kategoriobat",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"{{API_URL}}"
 							],
 							"path": [
-								"ci-restapi",
 								"kategoriobat"
 							]
 						}
@@ -408,16 +358,11 @@
 							]
 						},
 						"url": {
-							"raw": "http://127.0.0.1/ci-restapi/kategoriobat",
-							"protocol": "http",
+							"raw": "{{API_URL}}/kategoriobat",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"{{API_URL}}"
 							],
 							"path": [
-								"ci-restapi",
 								"kategoriobat"
 							]
 						}
@@ -440,16 +385,11 @@
 							]
 						},
 						"url": {
-							"raw": "http://127.0.0.1/ci-restapi/kategoriobat",
-							"protocol": "http",
+							"raw": "{{API_URL}}/kategoriobat",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"{{API_URL}}"
 							],
 							"path": [
-								"ci-restapi",
 								"kategoriobat"
 							]
 						}
@@ -467,16 +407,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1/ci-restapi/orderin",
-							"protocol": "http",
+							"raw": "{{API_URL}}/orderin",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"{{API_URL}}"
 							],
 							"path": [
-								"ci-restapi",
 								"orderin"
 							],
 							"query": [
@@ -505,16 +440,11 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1/ci-restapi/orderin",
-							"protocol": "http",
+							"raw": "{{API_URL}}/orderin",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"{{API_URL}}"
 							],
 							"path": [
-								"ci-restapi",
 								"orderin"
 							]
 						}
@@ -541,16 +471,11 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1/ci-restapi/orderout",
-							"protocol": "http",
+							"raw": "{{API_URL}}/orderout",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"{{API_URL}}"
 							],
 							"path": [
-								"ci-restapi",
 								"orderout"
 							]
 						}
@@ -563,16 +488,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1/ci-restapi/orderout?id=5",
-							"protocol": "http",
+							"raw": "{{API_URL}}/orderout?id=5",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"{{API_URL}}"
 							],
 							"path": [
-								"ci-restapi",
 								"orderout"
 							],
 							"query": [
