@@ -1,0 +1,591 @@
+{
+	"info": {
+		"_postman_id": "ee076dcd-0947-4ec0-9399-78ed8402f416",
+		"name": "kic_test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "obat",
+			"item": [
+				{
+					"name": "obat_list",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://127.0.0.1/ci-restapi/obat",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"ci-restapi",
+								"obat"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "9",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obat_ins",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "kategori",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "nama",
+									"value": "Teosal",
+									"type": "text"
+								},
+								{
+									"key": "harga",
+									"value": "7000",
+									"type": "text"
+								},
+								{
+									"key": "satuan",
+									"value": "Strip",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1/ci-restapi/obat",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"ci-restapi",
+								"obat"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obat_upd",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "9",
+									"type": "text"
+								},
+								{
+									"key": "kategori",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "nama",
+									"value": "Teosal Update",
+									"type": "text"
+								},
+								{
+									"key": "harga",
+									"value": "7000",
+									"type": "text"
+								},
+								{
+									"key": "satuan",
+									"value": "Strip",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1/ci-restapi/obat",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"ci-restapi",
+								"obat"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "obat_del",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "9",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1/ci-restapi/obat",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"ci-restapi",
+								"obat"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "supplier",
+			"item": [
+				{
+					"name": "sup_list",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1/ci-restapi/supplier",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"ci-restapi",
+								"supplier"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "sup_ins",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nama",
+									"value": "PT. Kimia Farma",
+									"type": "text"
+								},
+								{
+									"key": "alamat",
+									"value": "Jakarta",
+									"type": "text"
+								},
+								{
+									"key": "phone",
+									"value": "1234",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1/ci-restapi/supplier",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"ci-restapi",
+								"supplier"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "sup_upd",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "nama",
+									"value": "PT. Kimia Farma 2",
+									"type": "text"
+								},
+								{
+									"key": "alamat",
+									"value": "Jakarta 2",
+									"type": "text"
+								},
+								{
+									"key": "phone",
+									"value": "4321",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1/ci-restapi/supplier",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"ci-restapi",
+								"supplier"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "sup_del",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1/ci-restapi/supplier",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"ci-restapi",
+								"supplier"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "kategori_obat",
+			"item": [
+				{
+					"name": "kat_obat_list",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1/ci-restapi/kategoriobat",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"ci-restapi",
+								"kategoriobat"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "kat_obat_ins",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nama",
+									"value": "test",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1/ci-restapi/kategoriobat",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"ci-restapi",
+								"kategoriobat"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "kat_obat_upd",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "nama",
+									"value": "testa",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1/ci-restapi/kategoriobat",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"ci-restapi",
+								"kategoriobat"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "kat_obat_del",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "3",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1/ci-restapi/kategoriobat",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"ci-restapi",
+								"kategoriobat"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "order in (pembelian)",
+			"item": [
+				{
+					"name": "order_in_list",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1/ci-restapi/orderin",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"ci-restapi",
+								"orderin"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "order_in_ins",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id_supplier\" : \"1\",\n    \"data\" : {\n        \"id_obat\" : \"1\",\n        \"qty\" : \"1000\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1/ci-restapi/orderin",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"ci-restapi",
+								"orderin"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "order out (penjualan)",
+			"item": [
+				{
+					"name": "order_out_ins",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"customer\" : \"rian\",\n    \"alamat\" : \"bandung\",\n    \"delivery_status\" : \"1\",\n    \"delivery_cost\" : \"10000\",\n    \"data\" : [\n        {\n            \"id_obat\" : \"1\",\n            \"qty\" : \"50\"\n        },\n        {\n            \"id_obat\" : \"2\",\n            \"qty\" : \"10\"\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1/ci-restapi/orderout",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"ci-restapi",
+								"orderout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "order_out_list",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1/ci-restapi/orderout?id=5",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"ci-restapi",
+								"orderout"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -1,2 +1,4 @@
-# api-apotek
-This repository containt sample API which can use for develop a simple pharmacy application.
+# ci-restserver
+Check the recent version at https://github.com/chriskacerguis/codeigniter-restserver
+
+My alternate version https://github.com/ardisaurus/old-rest-ci
