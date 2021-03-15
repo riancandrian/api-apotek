@@ -506,6 +506,28 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "stock",
+			"item": [
+				{
+					"name": "stock_list",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{API_URL}}/stock",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"stock"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	]
 }
